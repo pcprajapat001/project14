@@ -3,8 +3,6 @@ import { Grid, Card, CardContent } from "@mui/material";
 import { CatItem } from "./CatItem";
 import axios from "axios";
 
-
-
 export const CatList = ({ handleSelectedCat }) => {
   const [data, setData] = useState([]);
 
